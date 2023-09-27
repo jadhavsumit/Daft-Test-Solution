@@ -34,10 +34,6 @@ test.describe('Given a user on Daft.ie landing page', async () => {
       await expect(await salesPage.propDescription).toContainText("garage");
       await expect(await salesPage.propFeatures).toContainText("Garage");
     });
-
-    test.afterAll(async ({page}) => {
-      await page.close();
-    });
   });
 });
 
