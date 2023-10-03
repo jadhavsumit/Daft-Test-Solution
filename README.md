@@ -1,4 +1,4 @@
-# Daft.IE Tests 
+# Daft.IE Tests
 
 In this repository can be found the end-2-end tests for the [daft.ie](https://www.daft.ie) website.
 
